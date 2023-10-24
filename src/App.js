@@ -50,7 +50,7 @@ function App() {
 
         />
         <Routes>
-          <Route path='/' element={<Work changeProject={changeProject} all_projects={all_projects} />} />
+          <Route path='/portfolio' element={<Work changeProject={changeProject} all_projects={all_projects} />} />
           <Route path='/about' element={<About/>} />
           <Route path={`/${project}`} element={<ProjectPage project={all_projects[project - 1]} />}/>
         </Routes>

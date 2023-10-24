@@ -30,7 +30,7 @@ function Nav({toggleContactView, handleNavActive, isItVisible}) {
     return (
       <div  className="nav">
         <div className="nav-container" style={navActive  ? {backgroundColor:'hsla(45, 17%, 96%, 0.8)', backdropFilter: "blur(20px) saturate(1.7)", boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.3)'} : {backgroundColor:'transparent'}}>
-          <NavLink exact to='/' className='nav-link' >Work</NavLink>
+          <NavLink exact to='/portfolio' className='nav-link' >Work</NavLink>
           <NavLink exact to='/about' className='nav-link' >About</NavLink>
           <NavLink onClick={handleClick} className='nav-link'>Contact</NavLink>
         </div>
