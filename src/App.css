@@ -237,7 +237,7 @@
   bottom: 0px;
   right: 25px;
   background-color: hsla(36, 31%, 90%, 0.9);
-  height: 60vh;
+  height: 620px;
   width: 430px;
 }
 
@@ -338,13 +338,14 @@
   text-decoration: none;
   color: rgb(0, 31, 134);
   font-weight: bold;
+  font-size: 12px;
   transition: all ease-in-out 0.2s;
   backdrop-filter: blur(20px) saturate(1.7);
 }
 
 .response-button:hover,
 .send-message:hover {
-  font-size: 1.1rem;
+  font-size: 14px;
   font-weight: bolder;
 }
 
@@ -362,6 +363,7 @@
   cursor: pointer;
   text-decoration: none;
   font-weight: bold;
+  font-size: 12px;
   transition: all ease-in-out 0.2s;
 }
 
@@ -973,3 +975,19 @@ ul a {
 
   
 
+  @media only screen and (max-width: 400px)  { 
+
+    .user {
+      margin-left: 20px;
+      margin-bottom: 20px;
+      background-color: rgb(118, 238, 254);
+      padding: 10px;
+      width: fit-content;
+      position: relative;
+      left: 170px;
+      border-radius: 10px;
+      color: rgb(0, 31, 134);
+      font-weight: bold;
+    }
+  
+  }
