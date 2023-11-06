@@ -8,7 +8,7 @@ function WorkCard({changeProject,cls, browser , title, id, projectImg, languages
 
     return (
       <div >
-        <Link onClick={handlePageChange} exact to={`/${id}`}>
+        <Link className='work-card-link' onClick={handlePageChange} exact to={`/${id}`}>
           <div className={`work-card-container-div work-card ${cls}`} style={{backgroundColor: `${color}`}}>
               <div className='work-description'>
                 <h5>{languages.join(', ')}</h5>

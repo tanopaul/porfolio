@@ -149,6 +149,10 @@
   letter-spacing: 2px;
 }
 
+.work-card-link {
+  color: #001F86;
+}
+
 .flatify,
 .flask {
   min-width: 60vw;

@@ -61,7 +61,7 @@ function ProjectPage({project}) {
                     <div className="team-box">
                         <h3 className="project-info-titles">Team</h3>
                         <div className="team-img-div">
-                            {teamInfo}
+                            {project.team.length > 0 ? teamInfo : "Solo Project"}
                         </div>
                     </div>
                     <div className="project-language-box">

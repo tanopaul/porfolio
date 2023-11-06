@@ -67,7 +67,7 @@ const all_projects = [
                 image: "https://media.licdn.com/dms/image/D5635AQHyNFbNNealtQ/profile-framedphoto-shrink_800_800/0/1696192858335?e=1698703200&v=beta&t=ccX8zNC8u_isgLe9BBOhMbzFt1QGblfDGS3cmLjsKC4"
             }
         ],
-        languages: ['Python', 'SQL'],
+        languages: ['Python', 'SQL', 'React.js', 'CSS'],
         background: 'hsla(22, 62%, 76%, 1)',
         browser: 'browser-black.png',
         image1: 'game.png',
@@ -78,7 +78,7 @@ const all_projects = [
     {
         id: 4,
         class: 'flask',
-        title: 'FitConnect',
+        title: 'FitFlav',
         team: [
             {
                 name: "Kimberly Love",
@@ -93,13 +93,26 @@ const all_projects = [
                 image: "https://media.licdn.com/dms/image/D4E03AQGyWR7W09T_Cg/profile-displayphoto-shrink_400_400/0/1692044744218?e=1702512000&v=beta&t=qR4IlNeQLKj_VrkkkIYuaqbK6EvxL0rmG8AxeqlkEMQ"
             }
         ],
-        languages: ['Flask', 'SQLAlchemy'],
+        languages: ['Flask', 'SQLAlchemy', 'React.js', 'CSS'],
         background: 'hsla(284, 61%, 74%, 1)',
         browser: 'browser-blue.png',
         image1: 'fitconnectpicture1.png',
         videos: ['fitconnect2.mp4', 'fitconnect3.mp4', 'fitconnect1.mp4'],
         overview: "Embark on a fitness-centered social media journey with this robust full-stack application, skillfully crafted using React.js, CSS, Flask, and SQLAlchemy. Upon entry, users are greeted with a login/signup interface, offering the choice to either access existing accounts or establish new ones. Account creation triggers the secure storage of a password hash in the database. Subsequently, the user's unique ID is encoded as a session cookie, allowing them to stay logged on to the main page despite leaving the website. Here, users can peruse an array of posted workouts, extending the opportunity to engage through comments. They're also empowered to contribute their own workouts for fellow users to review and discuss. The authorship of comments grants users the flexibility to edit or remove their contributions.",
         github: "https://github.com/Kmlove/FitConnect-Phase-4-Project"
+    },
+    {
+        id: 5,
+        class: 'flask',
+        title: 'FitConnect',
+        team: [],
+        languages: ['Flask', 'SQLAlchemy', 'React.js', 'CSS'],
+        background: 'hsla(206, 84%, 86%, 1)',
+        browser: 'browser-black.png',
+        image1: 'FitFlavImg.png',
+        videos: ['FitFlav-Login.mp4', 'FitFlavCalories.mp4', 'FitFlavCommunity.mp4'],
+        overview: "Elevate your culinary experience with FitFlav, a platform that empowers users to craft, save, and customize their cherished recipes. Here, you have the ability to fine-tune the calorie count for each creation and generously share your culinary masterpieces with the community. The application offers a seamless process for users to establish their secure profiles, ensuring that passwords are meticulously hashed before storage in the database. FitFlav is intelligently integrated with a food ingredients API, providing precise calorie information for every recipe inputted. Effortlessly adjust the total calorie count while simultaneously fine-tuning the proportions of individual ingredients. Additionally, users can explore and incorporate recipes from the vibrant Community page, expanding the horizons of their culinary repertoire.",
+        github: "https://github.com/tanopaul/phase-5-final-project"
     }
 ];
 

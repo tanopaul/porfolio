@@ -10,12 +10,12 @@ function Contact({toggleContactView}) {
     //       <p className="bot">How can I help you today?</p>
     // ]
 
-    const greeting = ["Hi there! 👋🏼", "What's up! 🤜🏽🤛🏽", "Hey! ✌🏼", "Hello! 😁", "Howdy! 🤠"]
-    const greetMessage = ["We're so happy you're checking out Tano's page.", "I can personally guarantee that Tano is happy you're here.", "Hope you're having an awesome day today!", "It's a pleasure meeting you. You seem very friendly!", "I can tell we'll get along great!"]
+    const greeting = ["Hi there! 👋🏼", "What's up! 🤜🏽🤛🏽", "Hey! ✌🏼", "Hello! 😁", "Howdy! 🤠", "Greetings! 🖖🏼", "Hello there! 😀", "Salutations! 🙌🏼", "Hafa Adai! 🇬🇺", "Hey hey hey! 😄"]
+    const greetMessage = ["We're so happy you're checking out Tano's page.", "I can personally guarantee that Tano is happy you're here.", "Hope you're having an awesome day today!", "It's a pleasure meeting you. You seem very friendly!", "I can tell we'll get along great!", "Live long and prosper!", "Hope your day is going great so far!", "Tano is very excited to get to know you!", "That's 'hello' in Chamorro (where Tano is from)", "I have a feeling you and Tano will get along great!"]
 
-    const affirmative = ["Certainly!", "Absolutely!", "No problem!", "You got it!", "Sure!"]
-    const joke = ['Did you hear they arrested the devil?', 'What did one DNA say to the other DNA?', 'What do fish say when they hit a concrete wall?', 'What do you call a fake noodle?', "What is Forest Gump's password?", 'Why does Humpty Dumpty love autumn?', 'Why are snails slow?']
-    const punchline = ['Yeah, they got him on possession... lol', 'Do these genes make me look fat?... lol', 'Dam! ... lol', 'An impasta! .. lol', '1Forest1 ..lol', 'Because he had a great fall.. lol', "Because they're carrying a house on their back.. lol"]
+    const affirmative = ["Certainly!", "Absolutely!", "No problem!", "You got it!", "Sure!", "Sure thing!", "Okie Dokie!", "Of Course!", "Listen to this..", "This one is my favorite!"]
+    const joke = ['Did you hear they arrested the devil?', 'What did one DNA say to the other DNA?', 'What do fish say when they hit a concrete wall?', 'What do you call a fake noodle?', "What is Forest Gump's password?", 'Why does Humpty Dumpty love autumn?', 'Why are snails slow?', "How does the ocean say hi?", "What do you call a broken can opener?", "Why shouldn't you write with a broken pen?", "What did 0 say to 8?", "What is Whitney Houston's favorite coordination?"]
+    const punchline = ['Yeah, they got him on possession... lol', 'Do these genes make me look fat?... lol', 'Dam! ... lol', 'An impasta! .. lol', '1Forest1 ..lol', 'Because he had a great fall.. lol', "Because they're carrying a house on their back.. lol", "It waves.. lol!", "A can't opener.. lol", "Because it's pointless.. lol", "Nice belt.. lol", "HAAAND EEYEEEEE.. lol"]
     
 
    
@@ -59,7 +59,7 @@ function Contact({toggleContactView}) {
       if (e.target.innerText === 'Just saying hello!') {
         setResponses([...responses, <p className='user'>Just saying hello!</p>])
         const new_hello = 'hello'
-        setRanNum(Math.floor(Math.random() * 5))
+        setRanNum(Math.floor(Math.random() * 10))
         setQuestions(new_hello)
         setCount(0)
         // setCount(count - (botResponses[new_hello].length))
@@ -68,7 +68,7 @@ function Contact({toggleContactView}) {
       else if (e.target.innerText === 'Tell me a joke.') {
         setResponses([...responses, <p className='user'>Tell me a joke.</p>])
         const new_hello = 'joke'
-        setRanNum(Math.floor(Math.random() * 5))
+        setRanNum(Math.floor(Math.random() * 10))
         setQuestions(new_hello)
         setCount(0)
       }
