@@ -1,4 +1,4 @@
-import aboutMePhoto from './assets/backgroundperu2.jpg'
+import aboutMePhoto from './assets/romania.png'
 import cs50Cert from './assets/cs50-cert.png';
 function About() {
     return (
@@ -7,7 +7,7 @@ function About() {
             <h1>I'm Tano.</h1>
         </div>
           <div className='about-details'>
-            <img className='about-img' src={aboutMePhoto} alt='me in peru'/>
+            <img className='about-img' src={aboutMePhoto} alt='me in Romania'/>
             <div className='about-description'>
               <h2>I’m a passionate software engineer with a unique journey that led me from the world of real estate to the exciting realm of technology. </h2>
               <p>In my previous career, I thrived in the fast-paced world of real estate, where I honed my skills in negotiations, client relations, and problem-solving. I learned the art of understanding clients’ needs and delivering solutions that exceeded their expectations. These skills have been invaluable in my software engineering journey.
