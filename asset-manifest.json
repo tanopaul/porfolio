@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.dc25b65e.css",
-    "main.js": "/portfolio/static/js/main.f00aab37.js",
+    "main.css": "/portfolio/static/css/main.39f75030.css",
+    "main.js": "/portfolio/static/js/main.73eeaa96.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/fitconnect2.mp4": "/portfolio/static/media/fitconnect2.31052771129f454d5d38.mp4",
     "static/media/fitconnect3.mp4": "/portfolio/static/media/fitconnect3.c757e8fc9cd8bfaaf242.mp4",
@@ -24,17 +24,18 @@
     "static/media/fitconnectpicture2.png": "/portfolio/static/media/fitconnectpicture2.ab67a196b2a5fdc83cd3.png",
     "static/media/pokedex-img-main.png": "/portfolio/static/media/pokedex-img-main.02543eed8f9ec3ecfc84.png",
     "static/media/cs50-cert.png": "/portfolio/static/media/cs50-cert.8a67b06e70cc99c3650e.png",
+    "static/media/romania.png": "/portfolio/static/media/romania.39dc4f50e6a33363977e.png",
     "static/media/backgroundperu2.jpg": "/portfolio/static/media/backgroundperu2.83634fe7ae7e6f014246.jpg",
     "static/media/game.png": "/portfolio/static/media/game.735a8b99df969aefd003.png",
     "static/media/browser-blue.png": "/portfolio/static/media/browser-blue.80934df624dc8e8dcf75.png",
     "static/media/browser-black.png": "/portfolio/static/media/browser-black.b5102f9a75880856335b.png",
     "index.html": "/portfolio/index.html",
-    "main.dc25b65e.css.map": "/portfolio/static/css/main.dc25b65e.css.map",
-    "main.f00aab37.js.map": "/portfolio/static/js/main.f00aab37.js.map",
+    "main.39f75030.css.map": "/portfolio/static/css/main.39f75030.css.map",
+    "main.73eeaa96.js.map": "/portfolio/static/js/main.73eeaa96.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc25b65e.css",
-    "static/js/main.f00aab37.js"
+    "static/css/main.39f75030.css",
+    "static/js/main.73eeaa96.js"
   ]
 }
