@@ -1,5 +1,5 @@
 import aboutMePhoto from './assets/romania.png'
-import cs50Cert from './assets/cs50-cert.png';
+import cs50Cert from './assets/edx.png';
 function About() {
     return (
       <div className="about">
@@ -18,17 +18,17 @@ function About() {
             <h2>Education</h2>
             <div className='certs'>
                 <div>
-                    <a href='https://www.credly.com/badges/a0131837-730f-49d6-be95-ecdacae80f14/print'><img className='meta-cert' src='https://images.credly.com/size/680x680/images/e91ed0b0-842b-417f-8d2f-b07535febdda/image.png' alt='certificate' /></a>
+                    <a href='https://www.credly.com/badges/a0131837-730f-49d6-be95-ecdacae80f14/print' rel='noreferrer' target="_blank"><img className='meta-cert' src='https://images.credly.com/size/680x680/images/e91ed0b0-842b-417f-8d2f-b07535febdda/image.png' alt='certificate' /></a>
                     <h5>Self-Taught</h5>
                     <h5>Meta Front End Developer</h5>
                 </div>
                 <div>
-                    <a href='https://certificates.cs50.io/7448ad8e-f9e5-4a2e-85ce-511a79d5f96c.pdf?size=letter' rel='noreferrer' target='_blank' ><img className='cs50-cert' src={cs50Cert} alt='certificate' /></a>
+                    <a href='https://courses.edx.org/certificates/dff784780cf74aa28987cb6621ce6597' className='cs50-cert' rel='noreferrer' target='_blank' ><img className='cs50-cert' src={cs50Cert} alt='certificate' /></a>
                     <h5>Self-Taught</h5>
                     <h5>Harvard CS50</h5>
                 </div>
                 <div>
-                    <a href='#'><img className='flatiron-cert' src='https://techhubsouthflorida.org/wp-content/uploads/2020/06/Flatiron-School.png' alt='certificate' /></a>
+                    <a href='#' rel='noreferrer' target="_blank"><img className='flatiron-cert' src='https://techhubsouthflorida.org/wp-content/uploads/2020/06/Flatiron-School.png' alt='certificate' /></a>
                     <h5>Bootcamp</h5>
                     <h5>Full Stack Learning</h5>
                 </div>

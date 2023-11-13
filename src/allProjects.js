@@ -67,7 +67,7 @@ const all_projects = [
                 image: "https://media.licdn.com/dms/image/D5635AQHyNFbNNealtQ/profile-framedphoto-shrink_800_800/0/1696192858335?e=1699916400&v=beta&t=PI2_k1Wx-icTdwNKBFe0DuhwFGmngoyuqWKQxRxUXSE"
             }
         ],
-        languages: ['Python', 'SQL', 'React.js', 'CSS'],
+        languages: ['Python', 'SQL'],
         background: 'hsla(22, 62%, 76%, 1)',
         browser: 'browser-black.png',
         image1: 'game.png',
