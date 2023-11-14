@@ -8,28 +8,13 @@ import ProjectPage from './ProjectPage';
 import { Route, Routes } from 'react-router-dom';
 import { useState, useEffect, useRef } from 'react';
 import { all_projects } from './allProjects';
-
+import chatBubble  from './assets/chat-bubble.png';
 
 function App() {
 
   const [displayBot, setDisplayBot] = useState(false)
   const [project, setProject] = useState('')
-  // const [navActive, setNavActive] = useState(false)
-  // const myRef = useRef(null);
-    
   
-  // const [isItVisible, setIsItVisible] = useState();
-    
-  //   useEffect(() => {
-        
-  //       const observer = new IntersectionObserver((entries) => {
-  //           const entry = entries[0];
-  //           setIsItVisible(entry.isIntersecting)
-  //           handleNavActive(entry)
-  //       })
-  //       observer.observe(myRef.current);
-        
-  //   }, [])
 
   function toggleContactView() {
     setDisplayBot(!displayBot)
@@ -39,9 +24,7 @@ function App() {
     setProject(projectId)
 }
 
-// function handleNavActive() {
-//   setNavActive(!navActive)
-// }
+
 
   return (
     <div className="App">
@@ -55,6 +38,7 @@ function App() {
           <Route path={`/${project}`} element={<ProjectPage project={all_projects[project - 1]} />}/>
         </Routes>
         {displayBot ? <Contact toggleContactView={toggleContactView} /> : ""}
+        {displayBot ? <Contact toggleContactView={toggleContactView} /> : <img onClick={toggleContactView} className='chat-bubble' src={chatBubble} alt='chat bubble' />}
         <Footer />
     </div>
   );
