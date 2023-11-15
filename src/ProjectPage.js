@@ -43,7 +43,7 @@ function ProjectPage({project}) {
 
     const videos = project.videos.map(video => {
         return (
-            <video className='video' autoPlay={true} loop={true} muted>
+            <video className='video' autoPlay={true} loop={true} muted webkit-playsInline playsInline >
                 <source src={require(`../../portfolio/src/assets/${video}`)} type="video/mp4" />
             </video>
         )
