@@ -8,7 +8,7 @@ const all_projects = [
         team: [
             {
                 name: "Kris Panko",
-                image: "https://media.licdn.com/dms/image/D4E35AQE5nepkIsJoqg/profile-framedphoto-shrink_800_800/0/1692859259960?e=1699916400&v=beta&t=w-SG7wXHyiXBUttYQq3hYA4D54U5I3V18WZY9rY7HDc"
+                image: "https://media.licdn.com/dms/image/D4E35AQE5nepkIsJoqg/profile-framedphoto-shrink_100_100/0/1692859260662?e=1700762400&v=beta&t=vqP2FB2EzWQUceQ-kjS3QDK7PW97pMPGhZYxuDYbL2Q"
             }, 
             {
                 name: "Collin Shakes",
@@ -64,7 +64,7 @@ const all_projects = [
             }, 
             {
                 name: "Matthew Stewart",
-                image: "https://media.licdn.com/dms/image/D5635AQHyNFbNNealtQ/profile-framedphoto-shrink_800_800/0/1696192858335?e=1699916400&v=beta&t=PI2_k1Wx-icTdwNKBFe0DuhwFGmngoyuqWKQxRxUXSE"
+                image: "https://media.licdn.com/dms/image/D5635AQHyNFbNNealtQ/profile-framedphoto-shrink_400_400/0/1696192858655?e=1700762400&v=beta&t=B-mFZbOq9c2oJOWGtKmqYH1l9gNO_sUvc--QWvYfA-g"
             }
         ],
         languages: ['Python', 'SQL'],
