@@ -37,7 +37,7 @@ function App() {
           <Route path='/about' element={<About/>} />
           <Route path={`/${project}`} element={<ProjectPage project={all_projects[project - 1]} />}/>
         </Routes>
-        {displayBot ? <Contact toggleContactView={toggleContactView} /> : ""}
+       {displayBot ? <Contact toggleContactView={toggleContactView} /> : ""}
         {displayBot ? <Contact toggleContactView={toggleContactView} /> : <img onClick={toggleContactView} className='chat-bubble' src={chatBubble} alt='chat bubble' />}
         <Footer />
     </div>
