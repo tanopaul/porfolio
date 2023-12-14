@@ -8,15 +8,15 @@ const all_projects = [
         team: [
             {
                 name: "Kris Panko",
-                image: "https://media.licdn.com/dms/image/D4E35AQE5nepkIsJoqg/profile-framedphoto-shrink_100_100/0/1692859260662?e=1700762400&v=beta&t=vqP2FB2EzWQUceQ-kjS3QDK7PW97pMPGhZYxuDYbL2Q"
+                image: "https://media.licdn.com/dms/image/D4E35AQE5nepkIsJoqg/profile-framedphoto-shrink_800_800/0/1692859260662?e=1703156400&v=beta&t=sxcWw410-7DdgNcParbBlBJ5UBQTxyGXQkEynfKHgfQ"
             }, 
             {
                 name: "Collin Shakes",
-                image: "https://media.licdn.com/dms/image/D4E03AQGyWR7W09T_Cg/profile-displayphoto-shrink_400_400/0/1692044744218?e=1702512000&v=beta&t=qR4IlNeQLKj_VrkkkIYuaqbK6EvxL0rmG8AxeqlkEMQ"
+                image: "https://media.licdn.com/dms/image/D4E03AQGyWR7W09T_Cg/profile-displayphoto-shrink_800_800/0/1692044745570?e=1707955200&v=beta&t=Dtu3wHq6JmAxxm3kSWqZ7e6sMJ6FT0jpjASY01wYUtc"
             }, 
             {
                 name: "Douglas Hellberg",
-                image: "https://media.licdn.com/dms/image/C4E03AQGypj5ilNekeg/profile-displayphoto-shrink_400_400/0/1547494923246?e=1702512000&v=beta&t=Zh5dcG5wEbH3jcgrkaAcHHAg1eGpVfmVwMq4OStq_3E"
+                image: "https://media.licdn.com/dms/image/C4E03AQGypj5ilNekeg/profile-displayphoto-shrink_800_800/0/1547494923921?e=1707955200&v=beta&t=c25aC8ZkC3Eh5PSO4EMr3rbJPhlR2vaf2Dz9iGfNAOw"
             }
         ],
         languages: ['React.js', 'CSS'],
@@ -34,15 +34,15 @@ const all_projects = [
         team: [
             {
                 name: "Douglas Hellberg",
-                image: "https://media.licdn.com/dms/image/C4E03AQGypj5ilNekeg/profile-displayphoto-shrink_400_400/0/1547494923246?e=1702512000&v=beta&t=Zh5dcG5wEbH3jcgrkaAcHHAg1eGpVfmVwMq4OStq_3E"
+                image: "https://media.licdn.com/dms/image/C4E03AQGypj5ilNekeg/profile-displayphoto-shrink_800_800/0/1547494923921?e=1707955200&v=beta&t=c25aC8ZkC3Eh5PSO4EMr3rbJPhlR2vaf2Dz9iGfNAOw"
             }, 
             {
                 name: "Idalis Valadez",
-                image: "https://media.licdn.com/dms/image/D5603AQGRM1RFPukh3Q/profile-displayphoto-shrink_400_400/0/1689565082250?e=1702512000&v=beta&t=v4OYrEG2jDVtM76LJj72p8v5MiQlX6cA3AbZ9j69Gqs"
+                image: "https://media.licdn.com/dms/image/D5635AQGaYrrMVhzTlg/profile-framedphoto-shrink_800_800/0/1701211467450?e=1703156400&v=beta&t=gQYPPaNEqR9TPCZuyElPYvpEnsREkDIiet357Y5qIG0"
             }, 
             {
                 name: "Jon Lea",
-                image: "https://media.licdn.com/dms/image/D5603AQFBTBgwH828mg/profile-displayphoto-shrink_400_400/0/1693331878489?e=1702512000&v=beta&t=tGEcZ71XBqy4XxcITrMQO5S6QDSKTdnEuq9219UjY9I"
+                image: "https://media.licdn.com/dms/image/D5603AQFBTBgwH828mg/profile-displayphoto-shrink_800_800/0/1693331878825?e=1707955200&v=beta&t=a6Ahxj_aJOWEnXWL-bFHybUGlos2z8sXIYuL7ALKeq0"
             }
         ],
         languages: ['JavaScript', 'CSS', 'HTML'],
@@ -60,11 +60,11 @@ const all_projects = [
         team: [
             {
                 name: "Eman Gurung",
-                image: "https://media.licdn.com/dms/image/D5603AQGPyxszd-9J4Q/profile-displayphoto-shrink_400_400/0/1693832305077?e=1702512000&v=beta&t=2P__ZgLO4jfd4wnBi632RW7RgyTDFfEbyRAzO2TEonE"
+                image: "https://media.licdn.com/dms/image/D5635AQFsncfwLSorZA/profile-framedphoto-shrink_800_800/0/1699874287266?e=1703156400&v=beta&t=CmKMkXVYJY5VXeaEWnM9EdoS9UsQSIHq6f17aZyRbg4"
             }, 
             {
                 name: "Matthew Stewart",
-                image: "https://media.licdn.com/dms/image/D5635AQHyNFbNNealtQ/profile-framedphoto-shrink_400_400/0/1696192858655?e=1700762400&v=beta&t=B-mFZbOq9c2oJOWGtKmqYH1l9gNO_sUvc--QWvYfA-g"
+                image: "https://media.licdn.com/dms/image/D5635AQHyNFbNNealtQ/profile-framedphoto-shrink_800_800/0/1696192858655?e=1703156400&v=beta&t=qaLi1jwf5iJG795Cg7FAN5NerrbNLlOa1lkI_Mp40Yk"
             }
         ],
         languages: ['Python', 'SQL'],
@@ -86,11 +86,11 @@ const all_projects = [
             }, 
             {
                 name: "Jon Lea",
-                image: "https://media.licdn.com/dms/image/D5603AQFBTBgwH828mg/profile-displayphoto-shrink_400_400/0/1693331878489?e=1702512000&v=beta&t=tGEcZ71XBqy4XxcITrMQO5S6QDSKTdnEuq9219UjY9I"
+                image: "https://media.licdn.com/dms/image/D5603AQFBTBgwH828mg/profile-displayphoto-shrink_800_800/0/1693331878825?e=1707955200&v=beta&t=a6Ahxj_aJOWEnXWL-bFHybUGlos2z8sXIYuL7ALKeq0"
             }, 
             {
                 name: "Collin Shakes",
-                image: "https://media.licdn.com/dms/image/D4E03AQGyWR7W09T_Cg/profile-displayphoto-shrink_400_400/0/1692044744218?e=1702512000&v=beta&t=qR4IlNeQLKj_VrkkkIYuaqbK6EvxL0rmG8AxeqlkEMQ"
+                image: "https://media.licdn.com/dms/image/D4E03AQGyWR7W09T_Cg/profile-displayphoto-shrink_800_800/0/1692044745570?e=1707955200&v=beta&t=Dtu3wHq6JmAxxm3kSWqZ7e6sMJ6FT0jpjASY01wYUtc"
             }
         ],
         languages: ['Flask', 'SQLAlchemy', 'React.js', 'CSS'],
