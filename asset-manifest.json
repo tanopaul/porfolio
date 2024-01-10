@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.c0d6f458.css",
-    "main.js": "/portfolio/static/js/main.503c66bb.js",
+    "main.js": "/portfolio/static/js/main.8ed8e8ec.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/fitconnect2.mp4": "/portfolio/static/media/fitconnect2.31052771129f454d5d38.mp4",
     "static/media/fitconnect3.mp4": "/portfolio/static/media/fitconnect3.c757e8fc9cd8bfaaf242.mp4",
@@ -33,11 +33,11 @@
     "static/media/browser-black.png": "/portfolio/static/media/browser-black.b5102f9a75880856335b.png",
     "index.html": "/portfolio/index.html",
     "main.c0d6f458.css.map": "/portfolio/static/css/main.c0d6f458.css.map",
-    "main.503c66bb.js.map": "/portfolio/static/js/main.503c66bb.js.map",
+    "main.8ed8e8ec.js.map": "/portfolio/static/js/main.8ed8e8ec.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c0d6f458.css",
-    "static/js/main.503c66bb.js"
+    "static/js/main.8ed8e8ec.js"
   ]
 }
