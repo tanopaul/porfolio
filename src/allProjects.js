@@ -1,3 +1,11 @@
+import krispanko from './assets/krispanko.png';
+import collin from './assets/collinshakes.png';
+import doug from './assets/doughelberg.png';
+import jon from './assets/jon.png';
+import idalis from './assets/idalis.png';
+import matt from './assets/matthew.png';
+import eman from './assets/eman.png';
+import kim from './assets/kimberly.png';
 
 
 const all_projects = [
@@ -8,15 +16,15 @@ const all_projects = [
         team: [
             {
                 name: "Kris Panko",
-                image: "https://media.licdn.com/dms/image/D4E35AQE5nepkIsJoqg/profile-framedphoto-shrink_800_800/0/1692859260662?e=1703156400&v=beta&t=sxcWw410-7DdgNcParbBlBJ5UBQTxyGXQkEynfKHgfQ"
+                image: krispanko
             }, 
             {
                 name: "Collin Shakes",
-                image: "https://media.licdn.com/dms/image/D4E03AQGyWR7W09T_Cg/profile-displayphoto-shrink_800_800/0/1692044745570?e=1707955200&v=beta&t=Dtu3wHq6JmAxxm3kSWqZ7e6sMJ6FT0jpjASY01wYUtc"
+                image: collin
             }, 
             {
                 name: "Douglas Hellberg",
-                image: "https://media.licdn.com/dms/image/C4E03AQGypj5ilNekeg/profile-displayphoto-shrink_800_800/0/1547494923921?e=1707955200&v=beta&t=c25aC8ZkC3Eh5PSO4EMr3rbJPhlR2vaf2Dz9iGfNAOw"
+                image: doug
             }
         ],
         languages: ['React.js', 'CSS'],
@@ -34,15 +42,15 @@ const all_projects = [
         team: [
             {
                 name: "Douglas Hellberg",
-                image: "https://media.licdn.com/dms/image/C4E03AQGypj5ilNekeg/profile-displayphoto-shrink_800_800/0/1547494923921?e=1707955200&v=beta&t=c25aC8ZkC3Eh5PSO4EMr3rbJPhlR2vaf2Dz9iGfNAOw"
+                image: doug
             }, 
             {
                 name: "Idalis Valadez",
-                image: "https://media.licdn.com/dms/image/D5635AQGaYrrMVhzTlg/profile-framedphoto-shrink_800_800/0/1701211467450?e=1703156400&v=beta&t=gQYPPaNEqR9TPCZuyElPYvpEnsREkDIiet357Y5qIG0"
+                image: idalis
             }, 
             {
                 name: "Jon Lea",
-                image: "https://media.licdn.com/dms/image/D5603AQFBTBgwH828mg/profile-displayphoto-shrink_800_800/0/1693331878825?e=1707955200&v=beta&t=a6Ahxj_aJOWEnXWL-bFHybUGlos2z8sXIYuL7ALKeq0"
+                image: jon
             }
         ],
         languages: ['JavaScript', 'CSS', 'HTML'],
@@ -60,11 +68,11 @@ const all_projects = [
         team: [
             {
                 name: "Eman Gurung",
-                image: "https://media.licdn.com/dms/image/D5635AQFsncfwLSorZA/profile-framedphoto-shrink_800_800/0/1699874287266?e=1703156400&v=beta&t=CmKMkXVYJY5VXeaEWnM9EdoS9UsQSIHq6f17aZyRbg4"
+                image: eman
             }, 
             {
                 name: "Matthew Stewart",
-                image: "https://media.licdn.com/dms/image/D5635AQHyNFbNNealtQ/profile-framedphoto-shrink_800_800/0/1696192858655?e=1703156400&v=beta&t=qaLi1jwf5iJG795Cg7FAN5NerrbNLlOa1lkI_Mp40Yk"
+                image: matt
             }
         ],
         languages: ['Python', 'SQL'],
@@ -82,15 +90,15 @@ const all_projects = [
         team: [
             {
                 name: "Kimberly Love",
-                image: "https://media.licdn.com/dms/image/D4E03AQFgtUrOfC2BwA/profile-displayphoto-shrink_800_800/0/1693861469085?e=1703721600&v=beta&t=W7p2V_3X-WZ2dtG07iDTS0y40wkMMoKz2lM7DlRox_U"
+                image: kim
             }, 
             {
                 name: "Jon Lea",
-                image: "https://media.licdn.com/dms/image/D5603AQFBTBgwH828mg/profile-displayphoto-shrink_800_800/0/1693331878825?e=1707955200&v=beta&t=a6Ahxj_aJOWEnXWL-bFHybUGlos2z8sXIYuL7ALKeq0"
+                image: jon
             }, 
             {
                 name: "Collin Shakes",
-                image: "https://media.licdn.com/dms/image/D4E03AQGyWR7W09T_Cg/profile-displayphoto-shrink_800_800/0/1692044745570?e=1707955200&v=beta&t=Dtu3wHq6JmAxxm3kSWqZ7e6sMJ6FT0jpjASY01wYUtc"
+                image: collin
             }
         ],
         languages: ['Flask', 'SQLAlchemy', 'React.js', 'CSS'],
