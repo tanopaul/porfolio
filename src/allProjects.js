@@ -2,7 +2,6 @@ import krispanko from './assets/krispanko.png';
 import collin from './assets/collinshakes.png';
 import doug from './assets/doughelberg.png';
 import jon from './assets/jon.png';
-import idalis from './assets/idalis.png';
 import matt from './assets/matthew.png';
 import eman from './assets/eman.png';
 import kim from './assets/kimberly.png';
@@ -38,28 +37,15 @@ const all_projects = [
     {
         id: 2,
         class: 'pokedex',
-        title: 'Pokedex',
-        team: [
-            {
-                name: "Douglas Hellberg",
-                image: doug
-            }, 
-            {
-                name: "Idalis Valadez",
-                image: idalis
-            }, 
-            {
-                name: "Jon Lea",
-                image: jon
-            }
-        ],
-        languages: ['JavaScript', 'CSS', 'HTML'],
+        title: 'FitConnect',
+        team: [],
+        languages: ['Flask', 'SQLAlchemy', 'React.js', 'CSS'],
         background: 'hsla(172, 45%, 75%, 1)',
         browser: 'browser-blue.png',
-        image1: 'pokedex-img-main.png',
-        videos: ['pokemon-search.mp4', 'pokemon-team.mp4', 'pokemon-select.mp4'],
-        overview: "Explore the Pokemon directory, peruse each Pokemon's description, and assemble your dream team. This project was crafted by extracting data from the Pokemon API. Users can easily navigate a comprehensive list of Pokemon. When a specific card is clicked, the Pokemon's image and details will be showcased. Users can curate their own personalized Pokemon squad by adding them to their team inventory (with a maximum limit of 6) and also remove them if needed. The index.js file handles the core functionality, calling the PokeAPI URL and converting the response to JSON for rendering. The renderPokedex function creates DOM elements for each Pokemon and assigns dynamic event listeners. Upon a 'click', a fetch request retrieves specific Pokemon data displayed on the right side.",
-        github: "https://github.com/Idalisvaladez/project-phase-1"
+        image1: 'FitFlavImg.png',
+        videos: ['FitFlav-Login.mp4', 'FitFlavCalories.mp4', 'FitFlavCommunity.mp4'],
+        overview: "Elevate your culinary experience with FitFlav, a platform that empowers users to craft, save, and customize their cherished recipes. Here, you have the ability to fine-tune the calorie count for each creation and generously share your culinary masterpieces with the community. The application offers a seamless process for users to establish their secure profiles, ensuring that passwords are meticulously hashed before storage in the database. FitFlav is intelligently integrated with a food ingredients API, providing precise calorie information for every recipe inputted. Effortlessly adjust the total calorie count while simultaneously fine-tuning the proportions of individual ingredients. Additionally, users can explore and incorporate recipes from the vibrant Community page, expanding the horizons of their culinary repertoire.",
+        github: "https://github.com/tanopaul/phase-5-final-project"
     },
     {
         id: 3,
@@ -108,19 +94,6 @@ const all_projects = [
         videos: ['fitconnect2.mp4', 'fitconnect3.mp4', 'fitconnect1.mp4'],
         overview: "Embark on a fitness-centered social media journey with this robust full-stack application, skillfully crafted using React.js, CSS, Flask, and SQLAlchemy. Upon entry, users are greeted with a login/signup interface, offering the choice to either access existing accounts or establish new ones. Account creation triggers the secure storage of a password hash in the database. Subsequently, the user's unique ID is encoded as a session cookie, allowing them to stay logged on to the main page despite leaving the website. Here, users can peruse an array of posted workouts, extending the opportunity to engage through comments. They're also empowered to contribute their own workouts for fellow users to review and discuss. The authorship of comments grants users the flexibility to edit or remove their contributions.",
         github: "https://github.com/Kmlove/FitConnect-Phase-4-Project"
-    },
-    {
-        id: 5,
-        class: 'flask',
-        title: 'FitConnect',
-        team: [],
-        languages: ['Flask', 'SQLAlchemy', 'React.js', 'CSS'],
-        background: 'hsla(206, 84%, 86%, 1)',
-        browser: 'browser-black.png',
-        image1: 'FitFlavImg.png',
-        videos: ['FitFlav-Login.mp4', 'FitFlavCalories.mp4', 'FitFlavCommunity.mp4'],
-        overview: "Elevate your culinary experience with FitFlav, a platform that empowers users to craft, save, and customize their cherished recipes. Here, you have the ability to fine-tune the calorie count for each creation and generously share your culinary masterpieces with the community. The application offers a seamless process for users to establish their secure profiles, ensuring that passwords are meticulously hashed before storage in the database. FitFlav is intelligently integrated with a food ingredients API, providing precise calorie information for every recipe inputted. Effortlessly adjust the total calorie count while simultaneously fine-tuning the proportions of individual ingredients. Additionally, users can explore and incorporate recipes from the vibrant Community page, expanding the horizons of their culinary repertoire.",
-        github: "https://github.com/tanopaul/phase-5-final-project"
     }
 ];
 

@@ -9,9 +9,9 @@ function About() {
           <div className='about-details'>
             <img className='about-img' src={aboutMePhoto} alt='me in Romania'/>
             <div className='about-description'>
-              <h2>I’m a passionate software engineer with a unique journey that led me from the world of real estate to the exciting realm of technology. </h2>
+              <h2>I’m a passionate Software Developer with a unique journey that led me from the real estate industry to the exciting world of technology. </h2>
               <p>In my previous career, I thrived in the fast-paced world of real estate, where I honed my skills in negotiations, client relations, and problem-solving. I learned the art of understanding clients’ needs and delivering solutions that exceeded their expectations. These skills have been invaluable in my software engineering journey.
-              <br/><br/>Today, I’m a software engineer with a strong foundation in React.js, Python, HTML, and CSS. I enjoy tackling complex problems, building elegant solutions, and continuously learning to stay at the forefront of technological advancements.</p>
+              <br/><br/>Today, I’m a Software Developer with a strong foundation in React.js, Python, HTML, and CSS. I enjoy tackling complex problems, building elegant solutions, and continuously learning to stay at the forefront of technological advancements.</p>
             </div>
           </div>
         <div className='education'>
@@ -28,7 +28,7 @@ function About() {
                     <h5>Harvard CS50</h5>
                 </div>
                 <div>
-                    <a href='#' rel='noreferrer' target="_blank"><img className='flatiron-cert' src='https://techhubsouthflorida.org/wp-content/uploads/2020/06/Flatiron-School.png' alt='certificate' /></a>
+                    <a href='https://www.linkedin.com/in/tanopaul/overlay/1635553642640/single-media-viewer/?profileId=ACoAACvgY3AB68FNBUg2jKBZooPhvVqQhrhhrtk' rel='noreferrer' target="_blank"><img className='flatiron-cert' src='https://techhubsouthflorida.org/wp-content/uploads/2020/06/Flatiron-School.png' alt='certificate' /></a>
                     <h5>Bootcamp</h5>
                     <h5>Full Stack Learning</h5>
                 </div>
