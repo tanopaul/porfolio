@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c0d6f458.css",
-    "main.js": "/portfolio/static/js/main.8ed8e8ec.js",
-    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "main.css": "/portfolio/static/css/main.a105f74b.css",
+    "main.js": "/portfolio/static/js/main.39fc1847.js",
+    "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/fitconnect2.mp4": "/portfolio/static/media/fitconnect2.31052771129f454d5d38.mp4",
     "static/media/fitconnect3.mp4": "/portfolio/static/media/fitconnect3.c757e8fc9cd8bfaaf242.mp4",
     "static/media/pokemon-search.mp4": "/portfolio/static/media/pokemon-search.bfbf887cde59597915f8.mp4",
@@ -32,12 +32,12 @@
     "static/media/browser-blue.png": "/portfolio/static/media/browser-blue.80934df624dc8e8dcf75.png",
     "static/media/browser-black.png": "/portfolio/static/media/browser-black.b5102f9a75880856335b.png",
     "index.html": "/portfolio/index.html",
-    "main.c0d6f458.css.map": "/portfolio/static/css/main.c0d6f458.css.map",
-    "main.8ed8e8ec.js.map": "/portfolio/static/js/main.8ed8e8ec.js.map",
-    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+    "main.a105f74b.css.map": "/portfolio/static/css/main.a105f74b.css.map",
+    "main.39fc1847.js.map": "/portfolio/static/js/main.39fc1847.js.map",
+    "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c0d6f458.css",
-    "static/js/main.8ed8e8ec.js"
+    "static/css/main.a105f74b.css",
+    "static/js/main.39fc1847.js"
   ]
 }
