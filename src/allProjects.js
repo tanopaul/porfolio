@@ -37,7 +37,7 @@ const all_projects = [
     {
         id: 2,
         class: 'pokedex',
-        title: 'FitConnect',
+        title: 'FitFlav',
         team: [],
         languages: ['Flask', 'SQLAlchemy', 'React.js', 'CSS'],
         background: 'hsla(172, 45%, 75%, 1)',
@@ -72,7 +72,7 @@ const all_projects = [
     {
         id: 4,
         class: 'flask',
-        title: 'FitFlav',
+        title: 'FitConnect',
         team: [
             {
                 name: "Kimberly Love",
