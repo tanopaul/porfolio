@@ -24,14 +24,13 @@ function Nav({toggleContactView, handleNavActive, isItVisible}) {
       window.addEventListener('scroll', changeNavActive);
     }, [])
     
-
+{/* <NavLink exact to='/portfolio' className='nav-link' >UX/UI</NavLink> */}
     
 
     return (
       <div  className="nav">
         <div className="nav-container" style={navActive  ? {backgroundColor:'hsla(45, 17%, 96%, 0.8)', backdropFilter: "blur(20px) saturate(1.7)", boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.3)'} : {backgroundColor:'transparent'}}>
           <NavLink exact to='/portfolio' className='nav-link' >Coding</NavLink>
-          <NavLink exact to='/portfolio' className='nav-link' >UX/UI</NavLink>
           <NavLink exact to='/about' className='nav-link' >About</NavLink>
           <NavLink onClick={handleClick} className='nav-link'>Contact</NavLink>
         </div>
